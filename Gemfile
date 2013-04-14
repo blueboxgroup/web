@@ -9,6 +9,7 @@ gem 'rails', git: 'git://github.com/rails/rails.git', branch: '3-2-stable'
 # to work
 gem 'configoro'
 gem 'rack-cors', require: 'rack/cors'
+gem 'rake', '0.8.7'
 
 # MODELS
 gem 'pg', platform: :mri
