@@ -9,7 +9,10 @@ gem 'rails', git: 'git://github.com/rails/rails.git', branch: '3-2-stable'
 # to work
 gem 'configoro'
 gem 'rack-cors', require: 'rack/cors'
+
+# bluebox additions
 gem 'rake', '0.8.7'
+gem 'trinidad', '~>1.4'
 
 # MODELS
 gem 'pg', platform: :mri
